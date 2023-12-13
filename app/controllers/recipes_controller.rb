@@ -32,6 +32,10 @@ class RecipesController < ApplicationController
     render :edit
   end
 
+  def my_list
+   
+  end 
+
   private
 
   def recipe_params
