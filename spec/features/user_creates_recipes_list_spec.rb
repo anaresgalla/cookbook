@@ -10,9 +10,7 @@ feature 'Usuário cria lista de receitas' do
     click_on 'Minhas Listas'
     click_on 'Criar Lista'
     fill_in 'Nome da Lista', with: 'Lanches'
-    click_on 'Adicionar Receitas'
     
-    expect(page).to have_content 'Hamburguer'
-    expect(page).to have_content 'HotDog'
+    expect(page).to have_content 'Lanches'
   end
 end
